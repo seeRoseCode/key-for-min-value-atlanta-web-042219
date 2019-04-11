@@ -7,11 +7,6 @@ def key_for_min_value(name_hash)
   new_array = []
   num = 10,000
   name_hash.each do |item, quantity|
-  #   # quantity
-  #   new_array << quantity
-  # end
-  # puts new_array
-
 
     if quantity < num
       new_array << item
@@ -19,5 +14,14 @@ def key_for_min_value(name_hash)
     puts new_array[0]
   end
 end
+
+#   # quantity
+#   new_array << quantity
+# end
+# puts new_array
+
+
+
+
 #
 # key_for_min_value(hash)
