@@ -12,8 +12,8 @@ def key_for_min_value(name_hash)
       new_array.unshift(item)
     end
     # binding.pry
-    puts new_array[0]
   end
+  puts new_array[0]
 end
 
 #   # quantity
