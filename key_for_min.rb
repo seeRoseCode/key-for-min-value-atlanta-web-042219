@@ -7,14 +7,11 @@ def key_for_min_value(name_hash)
   new_array = []
   num = 10000
   name_hash.each do |item, quantity|
-
     if quantity < num
       num = quantity
       new_array.unshift(item)
     end
-
     binding.pry
-    return name_hash[]
   end
 end
 
