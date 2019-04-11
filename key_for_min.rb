@@ -5,13 +5,14 @@
 # require 'pry'
 def key_for_min_value(name_hash)
   new_array = []
-  # name_hash.each do |item, quantity|
+  num = 10,000
+  name_hash.each do |item, quantity|
   #   # quantity
   #   new_array << quantity
   # end
   # puts new_array
 
-num = 10,000
+
 if quantity < num
   new_array << item
 end
