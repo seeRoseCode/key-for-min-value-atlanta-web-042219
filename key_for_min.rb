@@ -11,8 +11,8 @@ def key_for_min_value(name_hash)
     if quantity < num
       new_array << item
     end
-    puts new_array[0]
   end
+  puts new_array[0]
 end
 
 #   # quantity
