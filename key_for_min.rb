@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     end
     # binding.pry
   end
-  puts new_array[0]
+  return new_array[0]
 end
 
 #   # quantity
