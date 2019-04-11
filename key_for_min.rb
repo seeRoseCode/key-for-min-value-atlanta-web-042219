@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |item, quantity|
 
     if quantity < num
+      num = quantity
       new_array << item
 
     end
