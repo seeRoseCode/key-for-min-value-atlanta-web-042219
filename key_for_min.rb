@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       new_array.unshift(item)
     end
     # binding.pry
-    puts new_array.invert[0]
+    puts new_array.[0]
   end
 end
 
