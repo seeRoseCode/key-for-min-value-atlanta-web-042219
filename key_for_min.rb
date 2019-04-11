@@ -10,8 +10,9 @@ def key_for_min_value(name_hash)
 
     if quantity < num
       new_array << item
-      binding.pry
+
     end
+    binding.pry
     return name_hash[]
   end
 end
