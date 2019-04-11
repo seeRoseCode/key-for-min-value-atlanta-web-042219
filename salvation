@@ -1,0 +1,23 @@
+book_of_life = ["me", "people you don’t like", "people you do like"]
+
+Def salvation(in_christ, child_of_God)
+    in_christ.each do |any_man|
+    he = "former things"
+    If in_christ.include? ("#{any_man}")
+        he = "a new creation"
+        Puts "behold all things are made new."
+    else
+        puts "Hey #{any_man}, do you wanna be in Christ?"
+        answer = gets.chomp
+        if answer == "yes"
+            in_christ << any_man
+            Puts "For by grace are you saved through faith; and that not of
+            yourselves, it is the gift of God."
+        else
+            puts "ok. I love you still."
+        end
+        return "ok. I still love you."
+    end
+
+
+salvation(book_of_life, "Jamie")
